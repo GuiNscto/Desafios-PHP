@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 
-    echo "<H3>RESULTADO CRIPTOGRAFADO:</H3>";
+    echo "<h3>RESULTADO CRIPTOGRAFADO:</h3>";
     foreach (Criptografia($palavra) as $cripto) {
         echo $cripto;
     }
